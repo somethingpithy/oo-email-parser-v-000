@@ -10,7 +10,7 @@ class EmailParser
   end
 
   def parse
-    @emails.split.map { |email| email.split(",") }.uniq.flatten
+    @emails.split.map { |email| email.split(",") }.uniq
   end
 
 end
